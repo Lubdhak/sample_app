@@ -8,6 +8,8 @@ Rails 6.0.0
 
 as per http://installrails.com/
 
+gem install
+
 run rails db:migrate
 
 run rails db:seed
