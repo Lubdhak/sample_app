@@ -1,4 +1,5 @@
 module Types
+  module Root
     class MyTableType < Types::BaseObject
       # Add root-level fields here.
       # They will be entry points for queries on your schema.
@@ -14,4 +15,5 @@ module Types
 
     end
   end
+end
   

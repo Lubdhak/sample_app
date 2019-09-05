@@ -1,4 +1,6 @@
 module Types
-  class BaseInputObject < GraphQL::Schema::InputObject
+  module Root
+    class BaseInputObject < GraphQL::Schema::InputObject
+    end
   end
 end

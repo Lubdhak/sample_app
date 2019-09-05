@@ -1,4 +1,6 @@
 module Types
-  class BaseScalar < GraphQL::Schema::Scalar
+  module Root
+    class BaseScalar < GraphQL::Schema::Scalar
+    end
   end
 end
