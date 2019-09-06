@@ -1,6 +1,5 @@
 module Types
-  module Root
-    class MyTableType < Types::BaseObject
+    class MyTableType < Types::Root::BaseObject
       # Add root-level fields here.
       # They will be entry points for queries on your schema.
       # TODO: remove me
@@ -13,7 +12,6 @@ module Types
         object.created_at.to_s
       end
 
-    end
   end
 end
   

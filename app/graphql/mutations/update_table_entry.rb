@@ -11,6 +11,7 @@ module Mutations
           {
             table_entity: entry
           }
+
         end
     end
 end
