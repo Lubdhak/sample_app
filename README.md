@@ -13,4 +13,14 @@ gem install
 run rails db:migrate
 
 run rails db:seed
+
+
+Autoreload using Nodemon
+> sudo npm install nodemon 
+> sudo chmod +x restart_rails.sh
+> nodemon -L --exec "./restart_rails.sh"
+
+
+
+
 ~~~~~~~~~~~~
