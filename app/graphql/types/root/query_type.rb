@@ -43,11 +43,12 @@ module Types
       end
       # --------------------------------------------------------------
 
-      # query_name , return_type
+      # query_name , return_type , return_type_properties , input_argument_properties
       field :query_name , String , null: false,camelize: false,description: "query_name_description" do
         argument :name, String, required: true
       end
 
+      # Resolver function or a call to a Module.resolver()
       def query_name(**args)
         obj = "Dog"
         ctx = "Cat"
