@@ -5,7 +5,7 @@ class MyAppMiddleware
   
     def call(env)
       status, headers, body = @app.call(env)
-      puts "****************************************************************"
+      puts "******************************* - EOR - *******************************"
       [status, headers, body]
     end
 end

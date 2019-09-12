@@ -24,3 +24,7 @@ Autoreload using Nodemon
 
 
 ~~~~~~~~~~~~
+
+Why Transaction is called in some places on create where we can call Table_ModelName.add() directly ?
+
+use root_folder to keep root files..
