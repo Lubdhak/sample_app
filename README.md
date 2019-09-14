@@ -26,6 +26,7 @@ Autoreload using Nodemon
 ~~~~~~~~~~~~
 
 Why Transaction is called in some places on create where we can call Table_ModelName.add() directly ?
+What is the diffrence between Argument & field in Mutations ?
 
 use root_folder to keep root files..
 
@@ -36,3 +37,8 @@ use root_folder to keep root files..
 
     Whats next ?
 - Adding Class based Mutations Along with their resolvers
+- Add new Table with Fk relation & up-down migration
+
+    Tasks !
+
+- Apply workspace id to every query check in delete mutation

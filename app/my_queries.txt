@@ -11,14 +11,19 @@ query {
   }
 }
 
-mutation{
-  updateTableEntry(input:{
-    id: 2
-    title: "now this"
-  }){
-    table_entity{
+mutation {
+  updateTableEntry(input: {id: 2, title: "now this"}) {
+    table_entity {
       id
       title
     }
+  }
+}
+
+
+
+mutation {
+  changeTitle(input: {number0: {number: Two}}) {
+    success
   }
 }
