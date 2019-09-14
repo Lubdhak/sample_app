@@ -33,12 +33,11 @@ use root_folder to keep root files..
 
     What we learnt ?
 - Adding Adhoc Queries Along with their resolvers
+- Adding Class based Mutations Along with their resolvers
 
 
     Whats next ?
-- Adding Class based Mutations Along with their resolvers
 - Add new Table with Fk relation & up-down migration
 
     Tasks !
-
 - Apply workspace id to every query check in delete mutation
