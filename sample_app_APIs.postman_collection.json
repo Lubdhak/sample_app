@@ -1,17 +1,17 @@
 {
 	"info": {
-		"_postman_id": "ecc7a2df-2ef6-4780-93ec-7b8245d5c9c7",
+		"_postman_id": "065e0fd2-3806-4270-8227-03cc79a8f8fb",
 		"name": "sample_app_APIs",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "localhost:3000/api/v1/mytables",
+			"name": "localhost:3000/api/v1/posts",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/api/v1/mytables",
+					"raw": "localhost:3000/api/v1/posts",
 					"host": [
 						"localhost"
 					],
@@ -19,7 +19,7 @@
 					"path": [
 						"api",
 						"v1",
-						"mytables"
+						"posts"
 					]
 				},
 				"description": "Gets all Resource"
@@ -27,12 +27,12 @@
 			"response": []
 		},
 		{
-			"name": "localhost:3000/api/v1/mytables/:id",
+			"name": "localhost:3000/api/v1/post/:id",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/api/v1/mytables/1",
+					"raw": "localhost:3000/api/v1/posts/2",
 					"host": [
 						"localhost"
 					],
@@ -40,8 +40,8 @@
 					"path": [
 						"api",
 						"v1",
-						"mytables",
-						"1"
+						"posts",
+						"2"
 					]
 				},
 				"description": "Gets an Resource"
@@ -49,12 +49,12 @@
 			"response": []
 		},
 		{
-			"name": "localhost:3000/api/v1/mytables/:id Copy",
+			"name": "localhost:3000/api/v1/posts/:id",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/api/v1/mytables/1",
+					"raw": "localhost:3000/api/v1/posts/2",
 					"host": [
 						"localhost"
 					],
@@ -62,8 +62,8 @@
 					"path": [
 						"api",
 						"v1",
-						"mytables",
-						"1"
+						"posts",
+						"2"
 					]
 				},
 				"description": "Deletes an Resource"
@@ -71,7 +71,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:3000/api/v1/mytables",
+			"name": "localhost:3000/api/v1/posts",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -87,7 +87,7 @@
 					"raw": "{\n\t\"title\":\"hi\",\n\t\"body\":\"lalala\"\n}"
 				},
 				"url": {
-					"raw": "localhost:3000/api/v1/mytables",
+					"raw": "localhost:3000/api/v1/posts",
 					"host": [
 						"localhost"
 					],
@@ -95,7 +95,7 @@
 					"path": [
 						"api",
 						"v1",
-						"mytables"
+						"posts"
 					]
 				},
 				"description": "Creates an Resource"
@@ -103,7 +103,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:3000/api/v1/mytables",
+			"name": "localhost:3000/api/v1/posts",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -119,7 +119,7 @@
 					"raw": "{\n\t\"title\":\"Something_New\",\n\t\"body\":\"this is a simple body\"\n}"
 				},
 				"url": {
-					"raw": "localhost:3000/api/v1/mytables/5",
+					"raw": "localhost:3000/api/v1/posts/5",
 					"host": [
 						"localhost"
 					],
@@ -127,7 +127,7 @@
 					"path": [
 						"api",
 						"v1",
-						"mytables",
+						"posts",
 						"5"
 					]
 				},
@@ -135,5 +135,6 @@
 			},
 			"response": []
 		}
-	]
+	],
+	"protocolProfileBehavior": {}
 }

@@ -1,5 +1,5 @@
 module Types
-    class MyTableType < Types::Root::BaseObject
+    class PostType < Types::Root::BaseObject
       # Add root-level fields here.
       # They will be entry points for queries on your schema.
       # TODO: remove me

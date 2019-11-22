@@ -1,6 +1,6 @@
 # This is Active Record model
 
-class Mytable < ApplicationRecord
+class Post < ApplicationRecord
     validates :title,presence: true
     validates :body,presence: true
 end
