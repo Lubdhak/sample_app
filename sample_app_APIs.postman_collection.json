@@ -84,7 +84,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"title\":\"hi\",\n\t\"body\":\"lalala\"\n}"
+					"raw": "{\n\t\"title\":\"test1\",\n\t\"body\":\"bala bala\"\n}"
 				},
 				"url": {
 					"raw": "localhost:3000/api/v1/posts",
@@ -132,6 +132,61 @@
 					]
 				},
 				"description": "Updates an Resource"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/api/v1/mysidekiq/clear_stats",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/mysidekiq/clear_stats",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"mysidekiq",
+						"clear_stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/api/v1/mysidekiq/addjob",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/mysidekiq/addjob",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"mysidekiq",
+						"addjob"
+					]
+				},
+				"description": "Gets all Resource"
 			},
 			"response": []
 		}

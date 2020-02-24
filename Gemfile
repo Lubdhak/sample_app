@@ -7,6 +7,7 @@ ruby '2.6.3'
 gem 'rails', '~> 6.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
+gem 'sidekiq', '~> 5.0.4'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -21,7 +22,6 @@ gem 'puma', '~> 3.11'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
-
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
