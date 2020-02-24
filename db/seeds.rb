@@ -1,5 +1,5 @@
 5.times do
-    Mytable.create({
+    Post.create({
     title: Faker::Book.title,
     body: Faker::Lorem.sentence
 })

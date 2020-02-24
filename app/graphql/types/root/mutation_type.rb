@@ -1,6 +1,8 @@
 module Types
   module Root
     class MutationType < Types::Root::BaseObject
+      graphql_name "Mutation"
+      description "The mutation root for this schema"
       # TODO: remove me
       field :update_table_entry, mutation: Mutations::UpdateTableEntry,
       description: "mutation_1"

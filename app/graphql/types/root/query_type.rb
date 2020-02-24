@@ -13,24 +13,24 @@ module Types
       description: "query_1"
 
       def test_field
-        Mytable.pluck(:title)
+        Post.pluck(:title)
       end
       # --------------------------------------------------------------
-      field :table_entities, [Types::MyTableType], null: false, camelize: false,
+      field :table_entities, [Types::PostType], null: false, camelize: false,
       description: "query_2"
 
       def table_entities
-        Mytable.all
+        Post.all
       end
       # --------------------------------------------------------------
 
-      field :table_entity, Types::MyTableType, null: false, camelize: false,
+      field :table_entity, Types::PostType, null: false, camelize: false,
       description: "query_3" do
         argument :id, ID, required: true
       end
 
       def table_entity(id: )
-        Mytable.find(id)
+        Post.find(id)
       end
 
       # --------------------------------------------------------------
