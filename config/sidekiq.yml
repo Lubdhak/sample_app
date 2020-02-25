@@ -1,5 +1,10 @@
 # config/sidekiq.yml
----
+# REDIS SERVER: redis-server
+
+# SIDEKIQ SERVER : bundle exec sidekiq -C ./config/sidekiq.yml
+
+# MY_SAMPLE_APP : nodemon -L --exec “./restart_rails.sh"
+
 :verbose: false
 :concurrency: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 :timeout: 30
